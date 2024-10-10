@@ -29,7 +29,7 @@ export const loadCommands = async() =>{
        actions.set(cmd.command.name, cmd.action)
     }
 
-    await updateSlashCommands(commands, '873890903918518282')
+    await updateSlashCommands(commands, '1077594166508400731')
     appStore.commandsActionMap = actions
 }
 
