@@ -1,9 +1,10 @@
 import {defineStore} from 'pinia'
 
 export const useAppStore = defineStore('counter', {
-    state: () => ({}),
-    getters: {
-    },
-    actions: {
-    },
+    state: () => ({
+        client: null,
+        commandsActionMap: null,
+    }),
+    getters: {},
+    actions: {},
   })
